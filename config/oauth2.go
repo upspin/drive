@@ -11,6 +11,11 @@ import (
 	"google.golang.org/api/drive/v3"
 )
 
+<<<<<<< HEAD
+=======
+// OAuth2 holds OAuth configuration used by the Upspin Google Drive package. It is used by both
+// the storage and the setup process.
+>>>>>>> cloud/storage/drive: initial implementation
 var OAuth2 = &oauth2.Config{
 	ClientID:     "756365541666-dbbsja2vlrl38j0r85f32cgl3sj6n8k9.apps.googleusercontent.com",
 	ClientSecret: "RfAusHn6sSN7YO2pErac0ggs",
