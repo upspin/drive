@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "fcfa41a3_b949abd0",
+        "filename": "cmd/upspin-setupstorage-drive/setupstorage.go",
+        "patchSetId": 4
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 6197
+      },
+      "writtenOn": "2017-11-22T09:06:46Z",
+      "side": 1,
+      "message": "I think that\u0027s a problem to address on the \"WriteServerConfig\" side of things, not here.",
+      "parentUuid": "91d5cfb8_33fd3a48",
+      "revId": "568d671cedf14b38325b2b5b3729c713f40da556",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "272166a0_11d973aa",
         "filename": "cmd/upspin-setupstorage-drive/setupstorage.go",
         "patchSetId": 4
@@ -33,6 +51,24 @@
       "revId": "568d671cedf14b38325b2b5b3729c713f40da556",
       "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3059126b_33e2a7b4",
+        "filename": "cmd/upspin-setupstorage-drive/setupstorage.go",
+        "patchSetId": 4
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 6197
+      },
+      "writtenOn": "2017-11-22T09:06:46Z",
+      "side": 1,
+      "message": "You\u0027re right, not sure why it\u0027s like this. The other clients also output to stderr. I will leave it to be consistent.",
+      "parentUuid": "272166a0_11d973aa",
+      "revId": "568d671cedf14b38325b2b5b3729c713f40da556",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": false
     },
     {
       "key": {
@@ -59,6 +95,30 @@
     },
     {
       "key": {
+        "uuid": "8c46aa47_4e0fd66d",
+        "filename": "cmd/upspin-setupstorage-drive/setupstorage.go",
+        "patchSetId": 4
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 6197
+      },
+      "writtenOn": "2017-11-22T09:06:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "42fc4f83_9fa75d61",
+      "range": {
+        "startLine": 76,
+        "startChar": 13,
+        "endLine": 76,
+        "endChar": 37
+      },
+      "revId": "568d671cedf14b38325b2b5b3729c713f40da556",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d9d1373e_eac1a631",
         "filename": "cmd/upspin-setupstorage-drive/setupstorage.go",
         "patchSetId": 4
@@ -73,6 +133,24 @@
       "revId": "568d671cedf14b38325b2b5b3729c713f40da556",
       "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "678c627e_d85b4e27",
+        "filename": "cmd/upspin-setupstorage-drive/setupstorage.go",
+        "patchSetId": 4
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 6197
+      },
+      "writtenOn": "2017-11-22T09:06:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d9d1373e_eac1a631",
+      "revId": "568d671cedf14b38325b2b5b3729c713f40da556",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": false
     },
     {
       "key": {
