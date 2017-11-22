@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "06e79f2b_4040cdb1",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 6197
+      },
+      "writtenOn": "2017-11-22T09:47:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "869f2a5e_2af7519d",
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "df47c72b_a85baa1b",
         "filename": "cloud/storage/drive/drive.go",
         "patchSetId": 2
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "b87433de_8855d8ab",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 6197
+      },
+      "writtenOn": "2017-11-22T09:47:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "df47c72b_a85baa1b",
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "646121db_506f5383",
         "filename": "cloud/storage/drive/drive.go",
         "patchSetId": 2
@@ -50,6 +86,24 @@
       "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
       "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5e1ad103_928609bc",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 6197
+      },
+      "writtenOn": "2017-11-22T09:47:54Z",
+      "side": 1,
+      "message": "You\u0027re right, removed and applied suggestion.",
+      "parentUuid": "646121db_506f5383",
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": false
     },
     {
       "key": {
@@ -99,6 +153,54 @@
     },
     {
       "key": {
+        "uuid": "83486c6a_240426de",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 6197
+      },
+      "writtenOn": "2017-11-22T09:47:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "afa6488e_c38a533d",
+      "range": {
+        "startLine": 41,
+        "startChar": 43,
+        "endLine": 41,
+        "endChar": 56
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1d35b09b_6fc351ba",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 6197
+      },
+      "writtenOn": "2017-11-22T09:47:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a4ac126e_855a46dc",
+      "range": {
+        "startLine": 41,
+        "startChar": 34,
+        "endLine": 41,
+        "endChar": 42
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "239514f5_7dbbbd20",
         "filename": "cloud/storage/drive/drive.go",
         "patchSetId": 2
@@ -122,6 +224,30 @@
     },
     {
       "key": {
+        "uuid": "c2310c7e_978fe9e3",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 6197
+      },
+      "writtenOn": "2017-11-22T09:47:54Z",
+      "side": 1,
+      "message": "Done, but not sure I understand why you chose `%q`",
+      "parentUuid": "239514f5_7dbbbd20",
+      "range": {
+        "startLine": 53,
+        "startChar": 58,
+        "endLine": 53,
+        "endChar": 89
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "10e4500b_03c425ba",
         "filename": "cloud/storage/drive/drive.go",
         "patchSetId": 2
@@ -142,6 +268,30 @@
       "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
       "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6a8cea3c_5feefa10",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 6197
+      },
+      "writtenOn": "2017-11-22T09:47:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "10e4500b_03c425ba",
+      "range": {
+        "startLine": 56,
+        "startChar": 37,
+        "endLine": 56,
+        "endChar": 51
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": false
     },
     {
       "key": {
@@ -192,6 +342,30 @@
     },
     {
       "key": {
+        "uuid": "f166c769_c00540e0",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 6197
+      },
+      "writtenOn": "2017-11-22T09:47:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cdc86777_ee182628",
+      "range": {
+        "startLine": 64,
+        "startChar": 44,
+        "endLine": 64,
+        "endChar": 93
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "65c25e50_3a521e4c",
         "filename": "cloud/storage/drive/drive.go",
         "patchSetId": 2
@@ -215,6 +389,30 @@
     },
     {
       "key": {
+        "uuid": "4e8b7ab1_5779441f",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 6197
+      },
+      "writtenOn": "2017-11-22T09:47:54Z",
+      "side": 1,
+      "message": "Done. This is interesting. I wonder if it\u0027s bad if there is an error from ReadAll and this doesn\u0027t get closed.",
+      "parentUuid": "65c25e50_3a521e4c",
+      "range": {
+        "startLine": 103,
+        "startChar": 1,
+        "endLine": 103,
+        "endChar": 24
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a3571ebf_ac31ee83",
         "filename": "cloud/storage/drive/drive.go",
         "patchSetId": 2
@@ -229,6 +427,24 @@
       "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
       "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b88ab0e1_cca7f5ca",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 6197
+      },
+      "writtenOn": "2017-11-22T09:47:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a3571ebf_ac31ee83",
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": false
     },
     {
       "key": {
@@ -249,6 +465,24 @@
     },
     {
       "key": {
+        "uuid": "59aa0176_0a39956a",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 6197
+      },
+      "writtenOn": "2017-11-22T09:47:54Z",
+      "side": 1,
+      "message": "I have investigated this quite a bit and didn\u0027t find any way. One idea was to use the \"ref\" as a file ID as they seemed compatible in format, but unfortunately they are not. I will leave this at the back of my mind and if a solution comes up, I can follow up with another CL.",
+      "parentUuid": "8de3a44e_c2d45397",
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e6b430de_f333fcc3",
         "filename": "cloud/storage/drive/drive.go",
         "patchSetId": 2
@@ -266,6 +500,24 @@
     },
     {
       "key": {
+        "uuid": "49a49185_756ba841",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 6197
+      },
+      "writtenOn": "2017-11-22T09:47:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e6b430de_f333fcc3",
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e76c131e_962074fe",
         "filename": "cloud/storage/drive/drive.go",
         "patchSetId": 2
@@ -280,6 +532,24 @@
       "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
       "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "49159f7a_d3304fd7",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 6197
+      },
+      "writtenOn": "2017-11-22T09:47:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e76c131e_962074fe",
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": false
     },
     {
       "key": {
@@ -303,6 +573,30 @@
       "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
       "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3271ec92_deac0a9b",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 6197
+      },
+      "writtenOn": "2017-11-22T09:47:54Z",
+      "side": 1,
+      "message": "I guess you\u0027re right. The current upspin ref names do not have quotes but some other implementation may have. I\u0027ve put %q as that should cover more cases. I think there are few restrictions to file names on Drive.",
+      "parentUuid": "03bdda19_13fea162",
+      "range": {
+        "startLine": 161,
+        "startChar": 24,
+        "endLine": 161,
+        "endChar": 30
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": false
     },
     {
       "key": {
