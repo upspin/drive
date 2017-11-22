@@ -168,6 +168,30 @@
     },
     {
       "key": {
+        "uuid": "97ebe5a1_5c9d030f",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 6254
+      },
+      "writtenOn": "2017-11-22T09:45:06Z",
+      "side": 1,
+      "message": "typo: s/retreieve/retrieve/",
+      "parentUuid": "cdc86777_ee182628",
+      "range": {
+        "startLine": 64,
+        "startChar": 44,
+        "endLine": 64,
+        "endChar": 93
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "65c25e50_3a521e4c",
         "filename": "cloud/storage/drive/drive.go",
         "patchSetId": 2
