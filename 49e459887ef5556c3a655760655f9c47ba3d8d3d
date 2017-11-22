@@ -248,6 +248,30 @@
     },
     {
       "key": {
+        "uuid": "71549f6f_12d0276f",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T19:42:03Z",
+      "side": 1,
+      "message": "That way if it\u0027s the empty string we\u0027ll see \"\" instead of",
+      "parentUuid": "c2310c7e_978fe9e3",
+      "range": {
+        "startLine": 53,
+        "startChar": 58,
+        "endLine": 53,
+        "endChar": 89
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "10e4500b_03c425ba",
         "filename": "cloud/storage/drive/drive.go",
         "patchSetId": 2

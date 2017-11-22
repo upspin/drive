@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "80893716_d31fb010",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 5
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T19:42:03Z",
+      "side": 1,
+      "message": "if os.IsNotExist(err) {\n return ...\n}\nif err !\u003d nil {\n return ...\n}\n\nhere and elsewhere.",
+      "revId": "07183225fec152b7a2bf58ec5befa649fea066b0",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d9cc7a1f_4ae61baa",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 5
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T19:42:03Z",
+      "side": 1,
+      "message": "The file exists. Delete",
+      "revId": "07183225fec152b7a2bf58ec5befa649fea066b0",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cd899df6_d4a419c8",
+        "filename": "cloud/storage/drive/drive_e2e_test.go",
+        "patchSetId": 5
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T19:42:03Z",
+      "side": 1,
+      "message": "t.Fatal(err)\nshould be fine",
+      "revId": "07183225fec152b7a2bf58ec5befa649fea066b0",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "817debc5_db6b08aa",
+        "filename": "cloud/storage/drive/drive_e2e_test.go",
+        "patchSetId": 5
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T19:42:03Z",
+      "side": 1,
+      "message": "log.Fatalf(\"cleanup: %v\", err)",
+      "revId": "07183225fec152b7a2bf58ec5befa649fea066b0",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ae1beb12_a1623579",
+        "filename": "cloud/storage/drive/drive_e2e_test.go",
+        "patchSetId": 5
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T19:42:03Z",
+      "side": 1,
+      "message": "log.Printf(\"cleanup: %v\", err)",
+      "revId": "07183225fec152b7a2bf58ec5befa649fea066b0",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "95c982ad_a1c555e4",
+        "filename": "config/oauth2.go",
+        "patchSetId": 5
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T19:42:03Z",
+      "side": 1,
+      "message": "Deserves a doc comment, even if it\u0027s a bit redundant with the package comment.",
+      "revId": "07183225fec152b7a2bf58ec5befa649fea066b0",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    }
+  ]
+}
