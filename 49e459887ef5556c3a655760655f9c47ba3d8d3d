@@ -413,6 +413,30 @@
     },
     {
       "key": {
+        "uuid": "c4c73f8d_0491981e",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 6197
+      },
+      "writtenOn": "2017-11-22T10:15:34Z",
+      "side": 1,
+      "message": "Ah, sorry, you mean before the error check. Done.",
+      "parentUuid": "4e8b7ab1_5779441f",
+      "range": {
+        "startLine": 103,
+        "startChar": 1,
+        "endLine": 103,
+        "endChar": 24
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a3571ebf_ac31ee83",
         "filename": "cloud/storage/drive/drive.go",
         "patchSetId": 2
