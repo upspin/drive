@@ -1,0 +1,634 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "869f2a5e_2af7519d",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "please separate the upspin imports from the other non-stdlib imports",
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "df47c72b_a85baa1b",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "Seems pretty small. Why not go for something like 1024?\n\nAlso seems like this needn\u0027t be exported.",
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "646121db_506f5383",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "Why the exported error type?\nThis general message isn\u0027t very helpful if you think you are supplying all the options (but have misspelled one).\nSuggest replacing this with Errorf\u0027s for each missing option.",
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a4ac126e_855a46dc",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "These should all be errors.Invalid",
+      "range": {
+        "startLine": 41,
+        "startChar": 34,
+        "endLine": 41,
+        "endChar": 42
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "afa6488e_c38a533d",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "errors.Str(\"missing accessToken\")",
+      "range": {
+        "startLine": 41,
+        "startChar": 43,
+        "endLine": 41,
+        "endChar": 56
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "239514f5_7dbbbd20",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "\"invalid expiry %q: %v\", o.Opts[\"expiry\"], err)",
+      "range": {
+        "startLine": 53,
+        "startChar": 58,
+        "endLine": 53,
+        "endChar": 89
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "10e4500b_03c425ba",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "declare this as a variable at the top of the func and you can lose all the little local vars",
+      "range": {
+        "startLine": 56,
+        "startChar": 37,
+        "endLine": 56,
+        "endChar": 51
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cdc86777_ee182628",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "the errorf is unnecessary",
+      "range": {
+        "startLine": 64,
+        "startChar": 44,
+        "endLine": 64,
+        "endChar": 93
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "65c25e50_3a521e4c",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "I like to put this without a defer directly after the ReadAll (one line down) as a matter of habit\nthat way if you do loop that does gets, you won\u0027t leave multiple bodies open",
+      "range": {
+        "startLine": 103,
+        "startChar": 1,
+        "endLine": 103,
+        "endChar": 24
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a3571ebf_ac31ee83",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "Test whether file exists.",
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8de3a44e_c2d45397",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "This is pretty unfortunate, as it surely has a significant performance penalty on puts. Hmm. Is there no way around it?",
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e6b430de_f333fcc3",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "The file exists; delete it...",
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e76c131e_962074fe",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "wrap this with errors.E(op, err)",
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "03bdda19_13fea162",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "what if the name has quotes? should this be escaped?\nif it accepts \"\" then you could use %q ?",
+      "range": {
+        "startLine": 161,
+        "startChar": 24,
+        "endLine": 161,
+        "endChar": 30
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "64b12513_2a2c9c72",
+        "filename": "cloud/storage/drive/drive_e2e_test.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "Upspin storage test at",
+      "range": {
+        "startLine": 21,
+        "startChar": 28,
+        "endLine": 21,
+        "endChar": 37
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "08bf0b18_5e0c8d73",
+        "filename": "cloud/storage/drive/drive_e2e_test.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "inline the string here and delete testDataStr",
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "eaa26e75_01dc5262",
+        "filename": "cloud/storage/drive/drive_e2e_test.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "put the prefix in a constant named testFilePrefix, and make it\n\n\"Upspin-Storage-Test\"",
+      "range": {
+        "startLine": 23,
+        "startChar": 27,
+        "endLine": 23,
+        "endChar": 40
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a66f2a97_a88501d4",
+        "filename": "cloud/storage/drive/drive_e2e_test.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "time.Now().Format(time.RFC3999) ??",
+      "range": {
+        "startLine": 27,
+        "startChar": 38,
+        "endLine": 27,
+        "endChar": 65
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3e647038_a418f094",
+        "filename": "cloud/storage/drive/drive_e2e_test.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "t.Fatal(err) for these is fine.\nyou\u0027ll get context from the Put method and also line numbers in the test output.",
+      "range": {
+        "startLine": 34,
+        "startChar": 4,
+        "endLine": 34,
+        "endChar": 32
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9251b3c0_42272442",
+        "filename": "cloud/storage/drive/drive_e2e_test.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "got",
+      "range": {
+        "startLine": 36,
+        "startChar": 1,
+        "endLine": 36,
+        "endChar": 5
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3d5dbed3_524b8ab1",
+        "filename": "cloud/storage/drive/drive_e2e_test.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "if !bytes.Equals(got, testData) {",
+      "range": {
+        "startLine": 40,
+        "startChar": 1,
+        "endLine": 40,
+        "endChar": 33
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ec7dcffd_0b8efffc",
+        "filename": "cloud/storage/drive/drive_e2e_test.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "testData",
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d01f313d_b8bfd651",
+        "filename": "cloud/storage/drive/drive_e2e_test.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "lowercase please",
+      "range": {
+        "startLine": 52,
+        "startChar": 12,
+        "endLine": 52,
+        "endChar": 13
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "201476cf_6717381b",
+        "filename": "cloud/storage/drive/drive_e2e_test.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "\"expected error, got nil\")",
+      "range": {
+        "startLine": 56,
+        "startChar": 20,
+        "endLine": 56,
+        "endChar": 27
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ce28a4b8_280ef5b8",
+        "filename": "cloud/storage/drive/drive_e2e_test.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "if !errors.Is(errors.NotExist, err) {",
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8cd68188_eb8eb198",
+        "filename": "cloud/storage/drive/drive_e2e_test.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "Google Drive credentials",
+      "range": {
+        "startLine": 68,
+        "startChar": 50,
+        "endLine": 68,
+        "endChar": 62
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "203dc849_209ed130",
+        "filename": "cloud/storage/drive/drive_e2e_test.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "cleanup",
+      "range": {
+        "startLine": 90,
+        "startChar": 40,
+        "endLine": 90,
+        "endChar": 41
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bbd5b2e3_20f53fe1",
+        "filename": "cloud/storage/drive/drive_e2e_test.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "with the prefix testFilePrefix",
+      "range": {
+        "startLine": 95,
+        "startChar": 29,
+        "endLine": 95,
+        "endChar": 64
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "285d682e_dd0cba0b",
+        "filename": "cloud/storage/drive/drive_e2e_test.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "just log the error in this function, and you can remove the error return",
+      "range": {
+        "startLine": 96,
+        "startChar": 11,
+        "endLine": 96,
+        "endChar": 25
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "681490f1_39764cfc",
+        "filename": "cloud/storage/drive/drive_e2e_test.go",
+        "patchSetId": 2
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:16:54Z",
+      "side": 1,
+      "message": "use the constant",
+      "range": {
+        "startLine": 98,
+        "startChar": 21,
+        "endLine": 98,
+        "endChar": 34
+      },
+      "revId": "49e459887ef5556c3a655760655f9c47ba3d8d3d",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    }
+  ]
+}
