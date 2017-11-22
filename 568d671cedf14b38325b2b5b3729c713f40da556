@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "42fc4f83_9fa75d61",
+        "filename": "cmd/upspin-setupstorage-drive/setupstorage.go",
+        "patchSetId": 4
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:20:48Z",
+      "side": 1,
+      "message": "Open this URL in your browser to obtain an authorization code:\\n\\t%s\\n\")",
+      "range": {
+        "startLine": 76,
+        "startChar": 13,
+        "endLine": 76,
+        "endChar": 37
+      },
+      "revId": "568d671cedf14b38325b2b5b3729c713f40da556",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d9d1373e_eac1a631",
+        "filename": "cmd/upspin-setupstorage-drive/setupstorage.go",
+        "patchSetId": 4
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:20:48Z",
+      "side": 1,
+      "message": "fmt.Print(\"Auth code: \")",
+      "revId": "568d671cedf14b38325b2b5b3729c713f40da556",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b75ddbf7_98277a2e",
+        "filename": "config/oauth2.go",
+        "patchSetId": 4
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-11-22T07:20:48Z",
+      "side": 1,
+      "message": "cloud/storage/drive and cmd/upspin-setupstorage-drive",
+      "range": {
+        "startLine": 5,
+        "startChar": 64,
+        "endLine": 6,
+        "endChar": 38
+      },
+      "revId": "568d671cedf14b38325b2b5b3729c713f40da556",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    }
+  ]
+}
