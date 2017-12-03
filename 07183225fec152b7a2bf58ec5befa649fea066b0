@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "6a09ade7_3dfeac2d",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 5
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 6197
+      },
+      "writtenOn": "2017-12-03T14:22:58Z",
+      "side": 1,
+      "message": "I\u0027ve changed this, but reconsider my version too. Reading the code you find a branch which addresses a non-nil error and afterwards first considers whether that error is an \"os.ErrNotExist\". The way you\u0027ve suggested on the other hand reads as \"is this an ErrNotExist?\", then it says \"is the error non nil?\" which to could make me re-read twice to understand. But it\u0027s purely a matter of preference, I\u0027m just making a comment here.",
+      "parentUuid": "80893716_d31fb010",
+      "revId": "07183225fec152b7a2bf58ec5befa649fea066b0",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d9cc7a1f_4ae61baa",
         "filename": "cloud/storage/drive/drive.go",
         "patchSetId": 5
@@ -33,6 +51,24 @@
       "revId": "07183225fec152b7a2bf58ec5befa649fea066b0",
       "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4366d72e_b2cc7d48",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 5
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 6197
+      },
+      "writtenOn": "2017-12-03T14:22:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d9cc7a1f_4ae61baa",
+      "revId": "07183225fec152b7a2bf58ec5befa649fea066b0",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": false
     },
     {
       "key": {
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "229a2e16_1e09c647",
+        "filename": "cloud/storage/drive/drive_e2e_test.go",
+        "patchSetId": 5
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 6197
+      },
+      "writtenOn": "2017-12-03T14:22:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cd899df6_d4a419c8",
+      "revId": "07183225fec152b7a2bf58ec5befa649fea066b0",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "817debc5_db6b08aa",
         "filename": "cloud/storage/drive/drive_e2e_test.go",
         "patchSetId": 5
@@ -67,6 +121,24 @@
       "revId": "07183225fec152b7a2bf58ec5befa649fea066b0",
       "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4af2740d_e363276d",
+        "filename": "cloud/storage/drive/drive_e2e_test.go",
+        "patchSetId": 5
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 6197
+      },
+      "writtenOn": "2017-12-03T14:22:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "817debc5_db6b08aa",
+      "revId": "07183225fec152b7a2bf58ec5befa649fea066b0",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": false
     },
     {
       "key": {
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "7e0a11d3_77742343",
+        "filename": "cloud/storage/drive/drive_e2e_test.go",
+        "patchSetId": 5
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 6197
+      },
+      "writtenOn": "2017-12-03T14:22:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ae1beb12_a1623579",
+      "revId": "07183225fec152b7a2bf58ec5befa649fea066b0",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "95c982ad_a1c555e4",
         "filename": "config/oauth2.go",
         "patchSetId": 5
@@ -101,6 +191,24 @@
       "revId": "07183225fec152b7a2bf58ec5befa649fea066b0",
       "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6155d54f_57b20797",
+        "filename": "config/oauth2.go",
+        "patchSetId": 5
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 6197
+      },
+      "writtenOn": "2017-12-03T14:22:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "95c982ad_a1c555e4",
+      "revId": "07183225fec152b7a2bf58ec5befa649fea066b0",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": false
     }
   ]
 }
