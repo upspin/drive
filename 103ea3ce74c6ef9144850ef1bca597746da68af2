@@ -16,6 +16,24 @@
       "revId": "103ea3ce74c6ef9144850ef1bca597746da68af2",
       "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6e11c452_56c704d5",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 8
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 6197
+      },
+      "writtenOn": "2017-12-04T21:19:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d50cebb5_f0a6a0f6",
+      "revId": "103ea3ce74c6ef9144850ef1bca597746da68af2",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": false
     }
   ]
 }
