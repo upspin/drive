@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d50cebb5_f0a6a0f6",
+        "filename": "cloud/storage/drive/drive.go",
+        "patchSetId": 8
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 5389
+      },
+      "writtenOn": "2017-12-04T01:38:03Z",
+      "side": 1,
+      "message": "Needs a package-level doc comment\n\n// Package drive implements a storage.Storage that stores data in Google Drive.",
+      "revId": "103ea3ce74c6ef9144850ef1bca597746da68af2",
+      "serverId": "0759ed4b-3fdc-34dc-866b-f2e708168c03",
+      "unresolved": true
+    }
+  ]
+}
