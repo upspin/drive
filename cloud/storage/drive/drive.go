@@ -69,7 +69,10 @@ func New(o *storage.Opts) (storage.Storage, error) {
 	}, nil
 }
 
-var _ storage.Storage = (*driveImpl)(nil)
+var (
+	_ storage.Storage = (*driveImpl)(nil)
+	_ storage.Lister  = (*driveImpl)(nil)
+)
 
 // driveImpl is an implementation of Storage that connects to a Google Drive backend.
 type driveImpl struct {
@@ -150,6 +153,26 @@ func (d *driveImpl) Delete(ref string) error {
 	}
 	d.ids.Remove(ref)
 	return nil
+}
+
+// List implements storage.Lister.
+func (d *driveImpl) List(token string) (refs []upspin.ListRefsItem, nextToken string, err error) {
+	list := d.files.List().Spaces("appDataFolder").Fields("files(id, quotaBytesUsed)")
+	if token != "" {
+		list = list.PageToken(token)
+	}
+	r, err := list.Do()
+	if err != nil {
+		return nil, "", err
+	}
+	refs = make([]upspin.ListRefsItem, len(r.Files))
+	for i, f := range r.Files {
+		refs[i] = upspin.ListRefsItem{
+			Ref:  upspin.Reference(f.Id),
+			Size: f.QuotaBytesUsed,
+		}
+	}
+	return refs, r.NextPageToken, nil
 }
 
 // fileId returns the file ID of the first file found under the given name.

@@ -40,7 +40,22 @@ func TestPutAndDownload(t *testing.T) {
 		t.Fatal(err)
 	}
 	if !bytes.Equal(got, testData) {
-		t.Errorf("Expected %q got %q", testData, got)
+		t.Errorf("expected %q got %q", testData, got)
+	}
+}
+
+// TODO(x): Test pagination.
+func TestList(t *testing.T) {
+	err := client.Put(fileName, testData)
+	if err != nil {
+		t.Fatal(err)
+	}
+	got, _, err := client.(storage.Lister).List("")
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(got) == 0 {
+		t.Fatal("expected at least one result")
 	}
 }
 
