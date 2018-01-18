@@ -58,7 +58,7 @@ func main() {
 	cfgPath := filepath.Join(*where, *domain)
 	cfg := s.ReadServerConfig(cfgPath)
 	cfg.StoreConfig = []string{
-		"backend=drive",
+		"backend=Drive",
 		"accessToken=" + tok.AccessToken,
 		"tokenType=" + tok.TokenType,
 		"refreshToken=" + tok.RefreshToken,
