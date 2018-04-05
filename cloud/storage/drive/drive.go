@@ -139,7 +139,7 @@ func (d *driveImpl) Put(ref string, contents []byte) error {
 }
 
 func (d *driveImpl) Delete(ref string) error {
-	const op = "cloud/storage/drive.Download"
+	const op = "cloud/storage/drive.Delete"
 	id, err := d.fileId(ref)
 	if os.IsNotExist(err) {
 		// nothing to delete
