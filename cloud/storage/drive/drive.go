@@ -157,7 +157,7 @@ func (d *driveImpl) Delete(ref string) error {
 
 // List implements storage.Lister.
 func (d *driveImpl) List(token string) (refs []upspin.ListRefsItem, nextToken string, err error) {
-	list := d.files.List().Spaces("appDataFolder").Fields("files(id, quotaBytesUsed)")
+	list := d.files.List().Spaces("appDataFolder").Fields("files(name, quotaBytesUsed)")
 	if token != "" {
 		list = list.PageToken(token)
 	}
@@ -168,7 +168,7 @@ func (d *driveImpl) List(token string) (refs []upspin.ListRefsItem, nextToken st
 	refs = make([]upspin.ListRefsItem, len(r.Files))
 	for i, f := range r.Files {
 		refs[i] = upspin.ListRefsItem{
-			Ref:  upspin.Reference(f.Id),
+			Ref:  upspin.Reference(f.Name),
 			Size: f.QuotaBytesUsed,
 		}
 	}
