@@ -57,6 +57,16 @@ func TestList(t *testing.T) {
 	if len(got) == 0 {
 		t.Fatal("expected at least one result")
 	}
+	var found bool
+	for _, f := range got {
+		if string(f.Ref) == fileName {
+			found = true
+			break
+		}
+	}
+	if !found {
+		t.Fatalf("expected %q to be part of the results", fileName)
+	}
 }
 
 func TestDeleteAndDownload(t *testing.T) {
